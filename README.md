@@ -1,5 +1,5 @@
 # Giffer Bot
-Generates Random Gifs
+Random Gif Generator
 
 This bot has been created using [Bot Framework][1], it shows how to create a simple bot that accepts input from the user and echoes it back.
 
