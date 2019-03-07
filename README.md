@@ -1,7 +1,10 @@
 # Giffer-Bot
 Generate Random Gifs
 
-This bot has been created using [Bot Framework][1], it shows how to create a simple bot that accepts input from the user and echoes it back.
+This bot has been created using [Bot Framework][1], based on an Echo Bot Template (a simple bot that accepts input from the user and echoes it back). This is being modified to pull a latest gif from a Giphy Apis with something like 
+"/giffer-bot fun"
+
+I followed the template provided here https://developer.microsoft.com/en-us/microsoft-teams/blogs/preview-release-of-the-node-js-bot-builder-v4-sdk-for-microsoft-teams/ 
 
 ## Prerequisites
 - [Node.js][4] version 8.5 or higher
@@ -20,8 +23,11 @@ This bot has been created using [Bot Framework][1], it shows how to create a sim
     ```
 
 # Testing the bot using Bot Framework Emulator **v4**
-[Bot Framework Emulator][5] is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
+[Bot Framework Emulator][5] is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel. If you don't already have one installed, I needed to install Ngrok as well using the command
 
+>> npm install ngrok -g
+
+- Alternatively you could Install Ngrok from its official website
 - Install the Bot Framework Emulator version 4.2.0 or greater from [here][6]
 
 ## Connect to the bot using Bot Framework Emulator **v4**
@@ -29,6 +35,11 @@ This bot has been created using [Bot Framework][1], it shows how to create a sim
 - File -> Open Bot Configuration
 - Navigate to `Giffer-Bot` folder
 - Select `Giffer-Bot.bot` file
+
+------------
+===========
+------------
+I haven't done any of this stuff yet, since I haven't finished my Bot yet, but here's the next steps
 
 # Deploy the bot to Azure
 
