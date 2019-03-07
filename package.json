@@ -1,7 +1,7 @@
 {
-    "name": "Giffer Bot",
+    "name": "Giffer-Bot",
     "version": "1.0.0",
-    "description": "Random Gif Generator",
+    "description": "Generate Random Gifs",
     "author": "Generated using Microsoft Bot Builder Yeoman generator v4.2.6",
     "license": "MIT",
     "main": "index.js",

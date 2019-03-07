@@ -1,5 +1,5 @@
 {
-    "name": "Giffer Bot",
+    "name": "Giffer-Bot",
     "services": [
         {
             "type": "endpoint",

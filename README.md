@@ -1,5 +1,5 @@
-# Giffer Bot
-Random Gif Generator
+# Giffer-Bot
+Generate Random Gifs
 
 This bot has been created using [Bot Framework][1], it shows how to create a simple bot that accepts input from the user and echoes it back.
 
@@ -27,8 +27,8 @@ This bot has been created using [Bot Framework][1], it shows how to create a sim
 ## Connect to the bot using Bot Framework Emulator **v4**
 - Launch Bot Framework Emulator
 - File -> Open Bot Configuration
-- Navigate to `Giffer Bot` folder
-- Select `Giffer Bot.bot` file
+- Navigate to `Giffer-Bot` folder
+- Select `Giffer-Bot.bot` file
 
 # Deploy the bot to Azure
 
@@ -45,7 +45,7 @@ az login
 
 ```bash
 # provision Azure Bot Services resources to host your bot
-msbot clone services --name "Giffer Bot" --code-dir "." --location <azure region like eastus, westus, westus2 etc.> --sdkLanguage "Node" --folder deploymentScripts/msbotClone --verbose
+msbot clone services --name "Giffer-Bot" --code-dir "." --location <azure region like eastus, westus, westus2 etc.> --sdkLanguage "Node" --folder deploymentScripts/msbotClone --verbose
 ```
 
 ## Publishing Changes to Azure Bot Service
